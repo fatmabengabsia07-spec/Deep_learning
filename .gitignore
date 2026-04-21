@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local virtual envs
+.venv/
+venv/
+env/
+
+# User uploads
+static/uploads/*
+!static/uploads/.gitkeep
+
+# Large local model weights
+blip_finetuned/model.safetensors
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
